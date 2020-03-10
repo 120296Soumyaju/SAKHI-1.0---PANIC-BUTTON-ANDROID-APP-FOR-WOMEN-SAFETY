@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SAKHI 1.0</string>
+    <string name="tagline">सखी हैं तो रुकें क्यों ?</string>
+    <string name="sakhi_1_0">Sakhi 1.0</string>
+    <string-array name="sms_number">
+        <item>8291561777</item>
+        <item>8169553525</item>
+        <item>8369078587</item>
+    </string-array>
+    <string name="google_maps_key">AIzaSyC3gIGtAgxSosRHBn9Wq3TXnWATPDB2Faw</string>
+</resources>
+
