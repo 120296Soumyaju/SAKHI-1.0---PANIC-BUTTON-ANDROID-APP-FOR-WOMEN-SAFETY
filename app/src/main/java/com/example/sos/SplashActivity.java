@@ -1,11 +1,15 @@
 package com.example.sos;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Objects;
+
+@SuppressWarnings("ALL")
 public class
 SplashActivity extends AppCompatActivity {
     private int SLEEP_TIMER=3;
@@ -18,7 +22,7 @@ SplashActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash);
-        getSupportActionBar().hide();
+        Objects.requireNonNull(getSupportActionBar()).hide();
         LogoLauncher logoLauncher=new LogoLauncher();
         logoLauncher.start();
 

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22531200853",
+    "firebase_url": "https://sakhi1.firebaseio.com",
+    "project_id": "sakhi1",
+    "storage_bucket": "sakhi1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22531200853:android:cf14d4a4e802f6ab",
+        "android_client_info": {
+          "package_name": "com.example.sos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22531200853-4l0pjjij267l1k8tgagum10pnl1ins01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sos",
+            "certificate_hash": "2533c0630991da602d17aba0f0cdd994e22502af"
+          }
+        },
+        {
+          "client_id": "22531200853-i3ir3ptsucdmjvl6ff31f0g4k1bgtvc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmb2B-55KWETc-dY6jQ-dzUkWJZUF8hrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22531200853-i3ir3ptsucdmjvl6ff31f0g4k1bgtvc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

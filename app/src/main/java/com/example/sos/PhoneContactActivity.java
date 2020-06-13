@@ -1,23 +1,18 @@
 package com.example.sos;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.Cursor;
-import android.location.Location;
 import android.net.Uri;
-import android.provider.ContactsContract;
-import android.provider.SyncStateContract;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.telephony.SmsManager;
+import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.TextView;
 
-import static android.provider.Settings.System.CONTENT_URI;
+import androidx.appcompat.app.AppCompatActivity;
 
 
+@SuppressWarnings("ALL")
 public class PhoneContactActivity extends AppCompatActivity {
     TextView txtAdd;
     @Override
